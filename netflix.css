@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: #000;
+    
+}
+ body{
+    background-color: #000; 
+    color:#fff;
+    background: url(https://th.bing.com/th/id/R.d2edb29f3f970c36aadecbb01ed0bb79?rik=z%2bAuuobpN0KNSg&riu=http%3a%2f%2fisquad.tv%2fwp-content%2fuploads%2f2018%2f08%2fNetflix-Background.jpg&ehk=Ij4PSd%2bZkTcESSlAVWoGpNmExM0fu3BgteNT6AnS9lM%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 1350px  650px;
+    background-repeat: no-repeat;
+}
+ 
+ nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+ }
+ .img img{
+    width: 17%;
+    margin-top: -20px;
+ }
+ .btn{
+    display:flex;
+    margin-top: 18px;
+ }
+ .eng{
+    margin-inline: 22px;
+
+    
+ }
+ .eng:hover{
+    background-color: transparent;
+ }
+ .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+
+ }
+ .sign{
+    width:90px;
+    height: 40px;
+    background-color: #dd1717;
+    color:#fff;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 3px;
+ }
+
+
+ 
+ .eng{
+    width:110px;
+    height: 40px;
+    background-color: #000;
+    color:#fff;
+    font-size: 19px;
+    border: 2px solid white;
+    margin-left: 48px;
+ }
+ .main{
+    text-align: center;
+ }
+ .main h1{
+    font-size: 50px;
+ }
+.main h3{
+    font-size: 34px;
+}
+.main p{
+    font-size: 22px;
+}
+.input{
+    width: 500px;
+    height: 100px;
+    border:none;
+    font-size: 34px;
+    color:gray
+
+}
+.input button{
+    width: 150px;
+    height: 40px;
+    background-color: #dd1717;
+    color:#fff;
+    font-size: 26px;
+    border: none;
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    
+    padding: 50px;
+    border-top: 4px solid gray;
+    margin-top: 300px;
+}
+.first h1{
+    font-size: 55px;
+}
+.first p{
+    font-size: 20px;
+}
+
+
+.first img{
+    width: 40%;
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    width: 800px;
+    height: 60px;
+    background-color: gray;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 26%;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 30px;
+}
